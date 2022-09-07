@@ -1,0 +1,48 @@
+body {
+  background-color: #222930;
+}
+.main-div {
+    color: #4EB1BA;
+    font-family: cursive;
+    margin: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+}
+.form-field {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+.form-field input, .form-field button {
+  font-family: cursive;
+  height: 25px;
+  border-radius: 5px;
+}
+.add-task {
+  background: slategrey;
+  color: black;
+  margin: 10px;
+}
+.add-task {
+  margin: 10px;
+}
+.list-items{
+  font-size: larger;
+}
+.delete-buttons{
+  margin-left: 10px;
+  background: slategrey;
+  color: black;
+  font-family: cursive;
+  height: 25px;
+  border-radius: 5px;
+}
+.task-ul {
+  display: flex;
+  padding: 5px;
+}
+
+
+
