@@ -30,14 +30,14 @@ function App() {
                 onChange={event => {
                     setTask(event.target.value)
                 }} />
-            <button className='add-task' type="submit"> Add Task </button>
+            <button className='add-task' type="submit"> Add Task +</button>
         </form>
         <div><h2>List of Tasks</h2></div>
         <ul className='list-task'>
             {todos.map((item, index) => {
                 return <div className='task-ul' key={item.id}>
                     <li className='list-items'>{item.todo}</li>
-                    <button className='delete-buttons' onClick={() => deleteItem(item.id)}>Delete</button>
+                    <button className='delete-buttons' onClick={() => deleteItem(item.id)}>Delete Task</button>
                 </div>
             })}
         </ul>
